@@ -9,6 +9,7 @@ module OmniAuth
 
       # Always request the 'email_address' when authenticating using Omniauth.
       option :authorize_params, {:scope => 'email_address'}
+      option :authorize_options, [:prompt]
 
       # Set the UID
       uid { raw_info['identifier'].to_s }
