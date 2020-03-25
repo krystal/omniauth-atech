@@ -6,7 +6,7 @@ module OmniAuth
       # Each authorization must contain user_profile
       DEFAULT_SCOPE = 'user_profile'.freeze
 
-      option :client_options, { site: 'http://deploy.localhost' }
+      option :client_options, { site: 'https://deployhq.com' }
 
       # Request access to the DeployHQ API
       option :authorize_options, [:scope, :prompt]
