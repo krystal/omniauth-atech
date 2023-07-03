@@ -10,8 +10,8 @@ Gem::Specification.new do |s|
   s.files         = Dir.glob("{lib}/**/*")
   s.require_paths = ["lib"]
 
-  s.add_dependency 'omniauth', '~> 1.0'
-  s.add_dependency 'omniauth-oauth2', '~> 1.1'
+  s.add_dependency 'omniauth', '~> 2.0'
+  s.add_dependency 'omniauth-oauth2', '~> 1.8'
   
   s.authors       = ["Adam Cooke"]
   s.email         = ["adam@atechmedia.com"]
