@@ -3,7 +3,7 @@ PATH
   specs:
     omniauth-atech (1.2.2)
       omniauth (~> 2.0)
-      omniauth-oauth2 (~> 1.8)
+      omniauth-oauth2 (~> 1.7)
 
 GEM
   remote: http://rubygems.org/
