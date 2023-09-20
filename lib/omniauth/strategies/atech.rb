@@ -50,6 +50,16 @@ module OmniAuth
          raw_info['email_addresses'] && raw_info['email_addresses'].first
       end
 
+      # Override the token_params method to include client_id and client_secret
+      def token_params
+        super.merge(
+          {
+            'client_id' => client.id,
+            'client_secret' => client.secret
+          }
+        )
+      end
+
     end
   end
 end
